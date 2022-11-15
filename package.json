@@ -1,0 +1,43 @@
+{
+  "name": "frontend-configuration-package",
+  "version": "1.0.0",
+  "description": "Configuration example package",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pestsov-v/frontend-configuration-package.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pestsov-v/frontend-configuration-package/issues"
+  },
+  "homepage": "https://github.com/pestsov-v/frontend-configuration-package#readme",
+  "dependencies": {
+    "next": "^13.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^6.5.1",
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.25",
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@typescript-eslint/parser": "^5.43.0",
+    "eslint": "^8.27.0",
+    "eslint-config-next": "^13.0.3",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "typescript": "4.8.4"
+  }
+}

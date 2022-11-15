@@ -1,0 +1,10 @@
+.next/
+node_modules/
+.eslintignore
+.gitattributes
+.gitignore
+package.json
+package-lock.json
+tsconfig.json
+README.md
+LICENSE
