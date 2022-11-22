@@ -1,11 +1,9 @@
 import React from 'react'
-import {Button} from "../components/ui/Button/Button";
 import {DeleteButton} from "../components/ui";
 
 const HomePage = () => {
     return (<div>
-        <Button appearance='ghost' arrow='right'>Main</Button>
-        <DeleteButton />
+        <DeleteButton color='red' size='middle' finallyText='Удаляем' initialText='Удалить'></DeleteButton>
     </div>)
 }
 

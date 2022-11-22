@@ -4,17 +4,48 @@
     justify-content: center;
     border-radius: 10px;
     border: 0;
-    background: var(--primary);
-    font-size: 22px;
     font-weight: 400;
     color: #f9f9f9;
     padding: 0 16px 0 24px;
-    height: 64px;
-    width: 180px;
     text-align: left;
     cursor: pointer;
     transition: 0.3s;
 }
+
+.purple {
+    background: var(--primary);
+}
+
+.purple:hover {
+    background-color: var(--primary-hover);
+}
+
+.red {
+    background: var(--red);
+}
+
+.red:hover {
+    background-color: #AD0532FF;
+}
+
+.small {
+    font-size: 14px;
+    height: 34px;
+    width: 140px;
+}
+
+.middle {
+    font-size: 18px;
+    height: 49px;
+    width: 160px;
+}
+
+.big {
+    font-size: 22px;
+    height: 64px;
+    width: 180px;
+}
+
 
 .button-text {
     flex: 0 0 90px;
@@ -138,6 +169,3 @@ button.deleting .lid {
     animation: lid-open 2s both;
 }
 
-.button:hover {
-    background-color: var(--primary-hover);
-}
