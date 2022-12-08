@@ -22,11 +22,13 @@
   "homepage": "https://github.com/pestsov-v/frontend-configuration-package#readme",
   "dependencies": {
     "classnames": "^2.3.2",
+   
     "next": "^13.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "husky-init": "^8.0.0",
     "@svgr/webpack": "^6.5.1",
     "@types/node": "^18.11.9",
     "@types/react": "^18.0.25",

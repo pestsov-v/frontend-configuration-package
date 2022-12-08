@@ -30,7 +30,6 @@ export const DeleteButton = ({size = 'middle', color = 'purple', finallyText, in
                     [styles.small]: size === 'small',
                     [styles.middle]: size === 'middle',
                     [styles.big]: size === 'big',
-
                 }
             )}
             disabled={isDeleting || isDeleted}

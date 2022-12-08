@@ -3,7 +3,7 @@ import {DeleteButton} from "../components/ui";
 
 const HomePage = () => {
     return (<div>
-        <DeleteButton color='red' size='middle' finallyText='Удаляем' initialText='Удалить'></DeleteButton>
+        <DeleteButton color='red' size='big' finallyText='Удаляем' initialText='Удалить'></DeleteButton>
     </div>)
 }
 

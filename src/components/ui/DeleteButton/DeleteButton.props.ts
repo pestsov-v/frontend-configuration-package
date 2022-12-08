@@ -1,4 +1,4 @@
-import {ButtonHTMLAttributes, DetailedHTMLProps, ReactNode} from "react";
+import {ButtonHTMLAttributes, DetailedHTMLProps } from "react";
 
 export interface DeleteButtonProps extends DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement> {
     initialText: string
